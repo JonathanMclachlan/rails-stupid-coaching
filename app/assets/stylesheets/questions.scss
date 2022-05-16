@@ -1,0 +1,20 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+p {
+  font-size: 20px;
+}
+
+.question-part {
+  border-left: 5px solid #C6C6C6;
+  padding: 2px 25px;
+}
+
+.answer-part {
+  border-left: 5px solid #C6C6C6;
+  padding: 2px 25px;
+  background-color: #FFFFE1;
+    .answer {
+      font-weight: bold;
+    }
+}
